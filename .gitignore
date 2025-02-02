@@ -1,0 +1,19 @@
+
+.deps/
+
+# Ignore Remix test files (optional)
+remix-tests/
+
+# Ignore build artifacts
+artifacts/
+artifacts/build-info/
+
+# Ignore blockchain state files
+.states/
+
+# Ignore editor config (optional)
+.prettierrc.json
+
+# Ignore compiled JSON files
+*.json
+!events.sol  # Allow source code file
